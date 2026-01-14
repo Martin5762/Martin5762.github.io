@@ -45,7 +45,30 @@ a {
   border-radius: 30px;
   font-weight: bold;
 }
-
-a:hover {
+  a:hover {
   background: #f1f1f1;
+}
+  @media (max-width: 768px) {
+
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  li {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .logo {
+    width: 90px;
+  }
+
+  .container {
+    padding: 40px 15px;
+  }
+
 }
